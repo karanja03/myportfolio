@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+.navbar-list li {
+  margin: 0 20px; /* Add spacing between navigation items */
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Add styling to make the navigation links visually distinct, e.g., changing color on hover */
+.navbar-list li:hover {
+  color: #007bff; /* Change this to your preferred hover color */
 }
+
+.navbar-list{
+  margin-left: 1200px;
+  margin-top: 60px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+
+}
+
+.myh1{
+  font-size: 2rem;
+  margin-left: 300px;
+  margin-bottom: 10px;
+
+}
+.myh2{
+  margin-left: 300px;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+
+}
+
+.myh3{
+  margin-left: 300px ;
+  font-size:1rem;
+  margin-bottom: 10px;
+
+}
+
+
+
+/* scrollable ebits */
+/* @import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap"); */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 300;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg1 {
+  background-color: #ccc;
+}
+.bg2 {
+  background-color: #333;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+}
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000;
+}
+
